@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <br />
             <div className="text-center font-bold text-white">
-              "Fueling Creativity, One Cup at a Time"
+            &quot;Fueling Creativity, One Cup at a Time&quot;
             </div>
             <p className="p-4 text-gray-200 text-md text-center font-sans">
               At Get Me A Chai, we are committed to fostering a vibrant
@@ -30,7 +30,7 @@ const About = () => {
             <p className="p-4 text-gray-200 text-md text-center font-sans">
               Our mission is to empower developers, content creators, artists,
               and influencers by providing them with the resources they need to
-              succeed. Whether you're a developer working on the next
+              succeed. Whether you&apos;re a developer working on the next
               groundbreaking app, a content creator producing engaging and
               informative videos, an artist creating stunning visual works, or
               an influencer sharing your unique perspective with the world, Get
@@ -40,7 +40,7 @@ const About = () => {
               We believe in the transformative power of community support and
               the magic that happens when people come together to champion a
               common cause. Our platform is more than just a crowdfunding site;
-              it's a space where dreams can become reality, and innovative ideas
+              it&apos;s a space where dreams can become reality, and innovative ideas
               can flourish. By providing a straightforward and user-friendly way
               for patrons to contribute, we aim to create a supportive ecosystem
               that nurtures creativity and drives progress.
@@ -51,7 +51,7 @@ const About = () => {
               technology to build a community that values and invests in
               creative endeavors. Join us on this exciting journey and be part
               of a movement that celebrates and sustains the talents of
-              developers, creators, and influencers. Together, let's fuel
+              developers, creators, and influencers. Together, let&apos;s fuel
               creativity, one cup at a time.
             </p>
           </div>
@@ -123,7 +123,7 @@ const About = () => {
               </div>
               <h3 className="mt-6 text-gray-400">Easy Customization</h3>
               <p className="my-4 mb-0 font-normal leading-relaxed tracking-wide text-gray-400">
-                Personalize your campaign page's look and feel, from color
+                Personalize your campaign page&apos;s look and feel, from color
                 schemes to fonts, to match your unique style.
               </p>
             </div>

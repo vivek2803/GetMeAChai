@@ -142,7 +142,7 @@ const PaymentPage = ({ username }) => {
           <div className="info flex items-center justify-center py-20 flex-col gap-2 ">
             <div className="font-bold text-lg">@{username}</div>
             <div className="text-slate-300">
-              let's Help {username} to get a cup of tea
+              let&apos;s Help {username} to get a cup of tea
             </div>
             <div className="text-slate-400">
             {payment.length} supporters . ₹{payment.reduce((a,b)=>(a+b.amount), 0)} raised 
@@ -167,7 +167,7 @@ const PaymentPage = ({ username }) => {
                       <span className="text-sm md:text-base">
                         {p.name} donated{" "}
                         <span className="font-semibold">₹{p.amount}</span> with
-                        a message "{p.message}"
+                        a message &quot;{p.message}&quot;
                       </span>
                     </li>
                   ))}
