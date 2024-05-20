@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="font-bold text-3xl md:text-5xl items-end justify-center flex gap-0">
         <span className=" ">
 
-        Buy Me A Chai{" "}
+        Get Me A Chai{" "}
         </span>
         <span className="">
           <img
