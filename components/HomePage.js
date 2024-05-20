@@ -3,9 +3,9 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <>
-    <div className="flex flex-col  justify-center items-center h-[44vh] gap-5">
-      <div className="font-bold text-3xl md:text-5xl items-end justify-center flex gap-0">
-        <span className=" ">
+    <div className="flex flex-col  justify-center items-center h-[100dvh] gap-10">
+      <div className="font-bold text-4xl md:text-6xl items-end justify-center flex gap-0">
+        <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent ">
 
         Get Me A Chai{" "}
         </span>
@@ -17,7 +17,7 @@ const HomePage = () => {
           />
         </span>
       </div>
-      <p className="px-5 text-wrap text-center">
+      <p className="px-5 text-wrap text-center text-lg font-bold">
         A Crowdfunding platform for creaters. Get funded by your fans and
         followers. Start Now!
       </p>
