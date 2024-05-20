@@ -21,28 +21,33 @@ const DashBoard = () => {
 
     const getData = () =>{
       if(session){
-        fetchUser(session?.user?.name).then((data)=>{
+        fetchUser(session.user.name).then((data)=>{
           setForm(JSON.parse(data))
         })
       }
     }
     
     const handleChange = (e) => {
-      let slugName = ""
       if(e.target.name === 'username'){
         const name = e.target.value
-        slugName = name.split(/[^\w-]+/).join("").toLowerCase()
+        const slugName = name.split(/[^\w-]+/).join("").toLowerCase()
+        setForm({
+          ...form,
+          [e.target.name]: e.target.value,
+          username: slugName
+        })
       }
-      setForm({
-        ...form,
-        [e.target.name]: e.target.value,
-        username: slugName
-      })
+      else{
+        setForm({
+          ...form,
+          [e.target.name]: e.target.value
+        })
+      }
     }
 
     const handelSubmit = async(e)=>{
-      update()
       let a = await updateProfile(e , session.user.name)
+      await update()
       const response = await JSON.parse(a)
       toast(response.message, {
         position: "top-right",

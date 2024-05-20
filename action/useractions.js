@@ -80,10 +80,11 @@ export const updateProfile = async (data, oldUsername) => {
         { new: true }
     );
 
-    if (updateProfile) {
+    if (updatedProfile) {
       await Payment.updateMany(
         { to_user: oldUsername },
-        { to_user: newData.username }
+        { to_user: newData.username },
+        { new: true}
       );
     }
     return JSON.stringify({
@@ -100,7 +101,6 @@ export const updateProfile = async (data, oldUsername) => {
     { ...newData, email: oldEmail.email },
     { new: true }
   );
-
   return JSON.stringify({
     message: "Profile Updated Successfully",
     data: updatedProfile,
