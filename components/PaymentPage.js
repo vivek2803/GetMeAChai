@@ -198,6 +198,8 @@ const PaymentPage = ({ username }) => {
                   />
                   <input
                     type="number"
+                    inputMode="numeric"
+                    pattern="[0-9]*"
                     placeholder="Amount"
                     className="p-2 rounded-md bg-slate-800/40"
                     onChange={handelChange}
