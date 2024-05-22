@@ -1,10 +1,14 @@
 import React from 'react'
 import DashBoard from '@/components/DashBoard'
+import Loader from '@/components/Loader'
+import { Suspense } from 'react'
 
 const Profile = () => {
   return (
     <>
-      <DashBoard />
+      <Suspense fallback={<Loader />} >
+        <DashBoard />
+      </Suspense>
     </>
   )
 }
