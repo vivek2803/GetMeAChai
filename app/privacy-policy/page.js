@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           <strong>Effective Date:</strong> {date}
         </p>
         <p className="text-gray-200 mb-6">
-          At Get Me A Chai, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information.
+          At Buy Me A Chai, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your information.
         </p>
         <h2 className="text-xl font-bold mb-4">Information We Collect:</h2>
         <ul className="list-disc pl-6 mb-6">

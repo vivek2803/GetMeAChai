@@ -10,7 +10,7 @@ const CancellationRefundPolicies = () => {
           <strong>Effective Date:</strong> {date}
         </p>
         <p className="text-gray-200 mb-6">
-          At Get Me A Chai, we strive to ensure the satisfaction of all our users. Please read our cancellation and refund policies below:
+          At  A Chai, we strive to ensure the satisfaction of all our users. Please read our cancellation and refund policies below:
         </p>
         <h2 className="text-xl font-bold mb-4">For Contributors:</h2>
         <ul className="list-disc pl-6 mb-6">

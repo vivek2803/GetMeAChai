@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="font-bold text-4xl md:text-6xl items-end justify-center flex gap-0">
         <span className="bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent ">
 
-        Get Me A Chai{" "}
+        Buy Me A Chai{" "}
         </span>
         <span className="">
           <img
@@ -101,10 +101,10 @@ const HomePage = () => {
         
        
         <p className="p-4 text-gray-200 text-md text-center font-sans">
-          At Get Me A Chai, we are dedicated to supporting developers, creators, and influencers by connecting them with their supporters. Our platform enables individuals to fund their projects and ideas, providing a space where creativity and innovation can thrive.
+          At Buy Me A Chai, we are dedicated to supporting developers, creators, and influencers by connecting them with their supporters. Our platform enables individuals to fund their projects and ideas, providing a space where creativity and innovation can thrive.
         </p>
         <p className="p-4 text-gray-200 text-md text-center font-sans">
-          Our mission is to empower talented individuals by facilitating financial support, allowing them to focus on what they do best – creating. Whether you&apos;re a developer coding the next big app, a content creator making engaging videos, or an influencer sharing your passion, Get Me A Chai is here to help you achieve your goals.
+          Our mission is to empower talented individuals by facilitating financial support, allowing them to focus on what they do best – creating. Whether you&apos;re a developer coding the next big app, a content creator making engaging videos, or an influencer sharing your passion, Buy Me A Chai is here to help you achieve your goals.
         </p>
         <p className="p-4 text-gray-200 text-md text-center font-sans">
           We believe in the power of community and the impact of collective support. By providing a platform for patrons to contribute, we aim to transform dreams into reality and foster a culture of creativity and innovation.

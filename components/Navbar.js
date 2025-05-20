@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="bg-gray-900 text-white flex justify-between items-center px-5 md:px-10 pt-2 h-16">
         <div className="logo font-bold md:text-lg ">
           <Link href={'/'}>
-            <span className="hidden md:block">GetMeAChai!</span>
+            <span className="hidden md:block">BuyMeAChai!</span>
             <span className=" block md:hidden">
             <img
               src="/tea.gif"
