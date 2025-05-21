@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CoverpicSkeleteon = () => {
+const CoverpicSkeleteon = ()=>{
   return (
     <div role="status" className="flex items-center justify-center h-40 md:h-[21rem] w-full bg-gray-300 animate-pulse dark:bg-gray-700">
 <svg className="w-20 h-20 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">

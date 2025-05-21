@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CancellationRefundPolicies = () => {
+const CancellationRefundPolicies = ()=>{
     const date = new Date().getFullYear();
   return (
     <div className="bg-black py-8 px-4 sm:px-6 lg:px-8">

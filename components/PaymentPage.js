@@ -12,7 +12,7 @@ import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 
 
-const PaymentPage = ({ username }) => {
+const PaymentPage = ({ username })=>{
   const { data: session } = useSession();
   const [paymentform, setPaymentform] = useState({name: "" , message: "" , amount: ""});
   const [currentUser, setCurrentUser] = useState({});

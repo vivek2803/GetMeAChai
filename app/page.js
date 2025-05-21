@@ -13,6 +13,7 @@ export default function Home() {
     <Suspense fallback={<Loader/>}>
       <HomePage />
     </Suspense>
+    
     </>
   );
 }

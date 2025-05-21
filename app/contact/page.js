@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactUs = () => {
+const ContactUs = ()=>{
   return (
     <>
       <div className="bg-black">

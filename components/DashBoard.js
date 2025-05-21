@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce } from "react-toastify";
 
-const DashBoard = () => {
+const DashBoard = ()=>{
     const { data: session , update} = useSession();
     const router = useRouter();
     const [form, setForm] = useState({})

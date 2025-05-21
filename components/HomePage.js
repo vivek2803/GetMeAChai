@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const HomePage = () => {
+const HomePage = ()=>{
   return (
     <>
     <div className="flex flex-col  justify-center items-center h-[100dvh] gap-10">

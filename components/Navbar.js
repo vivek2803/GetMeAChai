@@ -4,7 +4,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import Link from "next/link";
 import Search from "./Search";
 
-const Navbar = () => {
+const Navbar = ()=>{
   const { data: session } = useSession();
   const [showDropDown, setShowDropDown] = useState(false)
   

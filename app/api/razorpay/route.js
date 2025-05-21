@@ -5,7 +5,7 @@ import connectDB from "@/db/connectDb";
 import User from "@/models/User";
 import Razorpay from "razorpay";
 
-export const POST = async(req) => {
+export const POST = async(req)=>{
     await connectDB()
     let body = await req.formData()
     body = Object.fromEntries(body)

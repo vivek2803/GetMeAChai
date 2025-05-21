@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PiGithubLogoBold } from "react-icons/pi";
 import { ImLinkedin2 } from "react-icons/im";
 
-const Footer = () => {
+const Footer = ()=>{
   const currentYear = new Date().getFullYear();
   return (
     <footer className='bg-gray-950 text-white flex flex-col md:flex-row justify-between items-center py-6 px-4 md:px-10 gap-6'>

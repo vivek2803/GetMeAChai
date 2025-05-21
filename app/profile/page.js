@@ -3,7 +3,7 @@ import DashBoard from '@/components/DashBoard'
 import Loader from '@/components/Loader'
 import { Suspense } from 'react'
 
-const Profile = () => {
+const Profile = ()=>{
   return (
     <>
       <Suspense fallback={<Loader />} >

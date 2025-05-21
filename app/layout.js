@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
               <Navbar />
               <div className="text-white min-h-screen relative">{children}</div>
               <Footer />
+              
             </div>
           </div>
         </SessionWrapper>

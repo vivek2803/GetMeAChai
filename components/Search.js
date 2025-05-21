@@ -2,13 +2,13 @@
 import React, { useRef, useState } from "react";
 import { useRouter } from 'next/navigation'
 
-const Search = () => {
+const Search = ()=>{
   const [show, setShow] = useState(false);
   const [username, setUsername] = useState("");
   const router = useRouter()
   const searchRef = useRef()
 
-  const handelSubmit = async(e)=>{    
+  const handelSubmit = async(e) => {    
 
    router.push(`/${e.get("uName")}`)
    setShow(false)

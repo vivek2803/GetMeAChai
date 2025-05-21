@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TermsAndConditions = () => {
+const TermsAndConditions = ()=>{
     const date = new Date().getFullYear();
   return (
     <div className="bg-black text-white py-8 px-4 sm:px-6 lg:px-8">

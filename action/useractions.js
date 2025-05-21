@@ -1,6 +1,6 @@
 "use server";
 
-import Razorpay from "razorpay";
+import Razorpay from "razorpay" ;
 import Payment from "@/models/Payment.model";
 import connectDB from "@/db/connectDb";
 import User from "@/models/User";
